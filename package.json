@@ -1,0 +1,17 @@
+{
+  "name": "ProcessPauser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mohamed Gamal Yaseen <mohamedgyaseen@gmail.com> (https://github.com/C0DE-L00P)",
+  "license": "ISC",
+  "packageManager": "pnpm@10.26.0",
+  "dependencies": {
+    "neo-blessed": "^0.2.0",
+    "ntsuspend": "^1.0.2"
+  }
+}

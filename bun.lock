@@ -1,0 +1,18 @@
+{
+  "lockfileVersion": 1,
+  "configVersion": 0,
+  "workspaces": {
+    "": {
+      "name": "ProcessPauser",
+      "dependencies": {
+        "neo-blessed": "^0.2.0",
+        "ntsuspend": "^1.0.2",
+      },
+    },
+  },
+  "packages": {
+    "neo-blessed": ["neo-blessed@0.2.0", "", { "bin": { "neo-blessed": "./bin/tput.js" } }, "sha512-C2kC4K+G2QnNQFXUIxTQvqmrdSIzGTX1ZRKeDW6ChmvPRw8rTkTEJzbEQHiHy06d36PCl/yMOCjquCRV8SpSQw=="],
+
+    "ntsuspend": ["ntsuspend@1.0.2", "", { "os": "win32", "cpu": [ "x64", "ia32", ] }, "sha512-JaQJRHgg2LV2q5NL6jHHi/DwwPBGrAeZwla3hCnDdkZZQH3VtNriDkbfPBjmCXR8mABtTqiL7TphrFavYEUVZQ=="],
+  }
+}
